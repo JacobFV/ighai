@@ -1,0 +1,90 @@
+- Introduction:
+  - What's up in the AI space
+  - Directions of interest
+    - world models
+  - Outline our informally-grounded philosophy
+    - We can make progress in AI by utilizing the power of formalizations but also accepting the insights of philosophical discourse
+    - Advantages and disadvantages of philosophical approaches to AI
+    - Adv. and dis. for mathematical approaches to AI
+
+We, seeking symbols, they 
+
+
+
+You are a creative ML scientist helping me explain the concept of Informalisms to the world. I have a draft of the introduction below, but it needs a lot of work. Can you please make suggestions for how to improve it? I'm looking for both high-level suggestions (e.g. "this section is too long") and low-level suggestions (e.g. "this sentence is confusing"). I'm also looking for suggestions for how to make the paper more accessible to a general audience. Thanks!
+
+I am developing a fundamentally new framework of AI cognitive architecture - informal AI. Informal AI begins by acknowledging that many of the 'soft' desiratta we seek to embue in advanced AI systems are actually very difficult to define. So instead of attempting (and failing) to formalize such intangibles, we instead should be seeking to *informalize* them, that is, to show how weak, but useful, links can be made bridging the material and its dual. Consider some examples:
+
+## The Reward Space Framework
+
+We first introduce the reward space framework for multi-agent environments. Consider two agents, \(i\) and \(j\), with respective rewards based on their own and others' actions:
+
+Before diving deep, let's briefly discuss the reward space framework. Consider two agents, \(i\) and \(j\), and their respective rewards based on their own actions and those of others:
+
+- \( r_i(a_j) \): the reward agent \(i\) experiences given an action by agent \(j\).
+- \( r_{\text{self},i} = r_i(a_i) \): the reward agent \(i\) gets from its own actions.
+- \( r_{\text{others},i} \): the average reward of all other agents due to agent \(i\)'s action.
+
+Using this, we can chart a reward space spanned by \( r_{\text{self},i} \times r_{\text{others},i} \), leading to interesting vectors like \( r_{\text{selfish}} \), \( r_{\text{altruistic}} \), \( r_{\text{friendly}} \), etc. [chatGPT: please actually define them mathematically. For example, r_{selfish} = <1, 0>, r_{friendly} = <1, 1>, r_alturistic=<0, 1>. Also add r_suicidal, r_kommakazi, and other r_* vectors]
+
+1. \( r_{\text{selfish}} \): Agent acts solely for its own benefit without regard for others.
+   \[
+   r_{\text{selfish}} = \langle 1, 0 \rangle
+   \]
+   
+2. \( r_{\text{friendly}} \): Agent acts for both its own benefit and that of others.
+   \[
+   r_{\text{friendly}} = \langle 1, 1 \rangle
+   \]
+   
+3. \( r_{\text{altruistic}} \): Agent acts solely for the benefit of others.
+   \[
+   r_{\text{altruistic}} = \langle 0, 1 \rangle
+   \]
+
+4. \( r_{\text{suicidal}} \): Agent acts to its own detriment without any benefit to others.
+   \[
+   r_{\text{suicidal}} = \langle -1, 0 \rangle
+   \]
+
+5. \( r_{\text{kamikaze}} \): Agent acts to its own detriment and to the detriment of others.
+   \[
+   r_{\text{kamikaze}} = \langle -1, -1 \rangle
+   \]
+
+---
+
+
+1. **Empathy**:
+    - **Definition**: Understanding another agent's rewards and punishments.
+    - **Mathematical Grounding**: 
+        \[
+        e_{i,j} = \text{info}(r_j(a_j)|a_i) 
+        \]
+        
+2. **Trust**:
+    - **Definition**: Expectation that another agent will act beneficially.
+    - **Mathematical Grounding**:
+        \[
+        t_{i,j} = \mathbb{E}[r_{i}(a_j)]
+        \]
+
+3. **Hope**:
+    - **Definition**: Expectation of positive future rewards.
+    - **Mathematical Grounding**:
+        \[
+        h_i = \mathbb{E}[r_{i}(a_{i, \text{future}})]
+        \]
+
+4. **Jealousy**:
+    - **Definition**: Perception of another agent receiving a desired reward.
+    - **Mathematical Grounding**:
+        \[
+        j_{i,j} = 
+        \begin{cases} 
+        r_j(a_k) - r_i(a_k) & \text{if } r_j(a_k) > r_i(a_k) \\
+        0 & \text{otherwise}
+        \end{cases}
+        \]
+
+I could give you many more examples of how to *informalize* soft concepts into hard ones, but I think you get the point. The key is to realize that we can't formalize everything, but we can formalize *something*, and that something at least gives us (or the AI) a starting point to evolve from.

@@ -1,0 +1,285 @@
+# Informally Grounded Humane AI
+
+
+- Introduction:
+  - What's up in the AI space
+  - Directions of interest
+  - Outline our informally-grounded philosophy
+    - We can make progress in AI by utilizing the power of formalizations but also accepting the insights of philosophical discourse
+    - Advantages and disadvantages of philosophical approaches to AI
+    - Adv. and dis. for mathematical approaches to AI
+
+Cognition:
+- Perception
+- Memory
+
+
+Generality:
+- Abillity to add new symbols
+
+Consciousness:
+- Qualia
+
+- **Epiphanies**: Sudden realizations or moments of clarity.
+- **Cognitive Dissonance**: The mental discomfort of holding contradictory beliefs.
+- **Flow State**: Being fully immersed and involved in an activity, often losing track of time.
+
+- **Synesthesia**: A condition where one sense is simultaneously perceived by another (e.g., seeing colors when hearing music).
+- **Altered Perceptions**: Changes in the way one perceives the world, often due to substances, meditation, or certain mental conditions.
+- **Hallucinations**: Perceiving something not present in reality, often visual or auditory.
+- Dreaming
+- **Lucid Dreaming**: A dream where the dreamer is aware they're dreaming and can exert control.
+- **Nightmares**: Distressing dreams causing feelings of terror or dread.
+
+- **Subconscious Desires**: Hidden desires or feelings that manifest in dreams or subconscious thoughts.
+
+Sensorimotor:
+
+  Vision:
+
+### Vision:
+
+1. **Aesthetics**:
+- **Origin**: Derived from the Greek word "aisthētikos", meaning "perceptive".
+- **Philosophy**: Explores the nature of art, beauty, and taste.
+- **Sub-disciplines**: Includes environmental and urban aesthetics, the philosophy of film, and the aesthetics of pop culture.
+
+1. **Visual Appeal**:
+- **Factors**: Balance, contrast, unity, and emphasis.
+- **Role**: Crucial in design disciplines like graphic design, web design, and product design.
+- **Measurement**: Often subjective, but can be gauged through user feedback and analytics.
+
+1. **Harmony (in vision)**:
+- **Elements**: Color harmony, form, and spatial arrangement.
+- **Types**: Analogous, complementary, triadic, and split-complementary harmony.
+- **Purpose**: To create a cohesive, unified visual experience.
+
+1. **Symmetry**:
+- **Types**: Reflectional, rotational, translational, and glide reflection.
+- **Applications**: Architecture, design, nature, and art.
+- **Psychology**: Often perceived as beautiful due to its organized and predictable nature.
+
+1. **Composition**:
+- **Principles**: Rule of thirds, leading lines, framing, and balance.
+- **Importance**: Dictates how visual elements are arranged to guide the viewer’s eye.
+- **Mediums**: Used in photography, painting, and design.
+
+1. **Color Theory**:
+- **Primary Colors**: Red, blue, and yellow.
+- **Secondary Colors**: Green, orange, and purple.
+- **Tertiary Colors**: Combinations of primary and secondary colors.
+- **Psychology**: Colors evoke emotions and perceptions.
+
+1. **Texture**:
+- **Types**: Rough, smooth, hard, soft, glossy, and matte.
+- **Applications**: Art, design, and even culinary arts (e.g., mouthfeel).
+- **Perception**: Can be tactile (felt) or visual (seen).
+
+1. **Style Transfer**:
+- **Algorithm**: Uses convolutional neural networks.
+- **Applications**: Transforming images, videos, and even audio.
+- **Popularization**: Often seen in apps that turn photos into art-style images.
+
+### Hearing:
+
+1. **Acoustics**:
+- **Branches**: Architectural acoustics, bioacoustics, and psychoacoustics.
+- **Applications**: Soundproofing, speaker design, and musical instrument design.
+- **Phenomena**: Reverberation, diffraction, and absorption.
+
+2. **Timbre**:
+- **Factors**: Harmonic content, attack and decay, and vibrato.
+- **Perception**: Helps differentiate between instruments or voices playing the same note.
+- **Synonyms**: Tone color or tone quality.
+
+3. **Rhythm**:
+- **Components**: Tempo, meter, and syncopation.
+- **Importance**: Fundamental to musical structure and dance.
+- **Varieties**: Polyrhythms, additive rhythms, and divisive rhythms.
+
+4. **Harmony (in sound)**:
+- **Types**: Diatonic, chromatic, consonant, and dissonant.
+- **Structure**: Built on intervals and chords.
+- **Progressions**: Common sequences include I-IV-V and ii-V-I.
+
+5. **Pitch**:
+- **Measurement**: Hertz (Hz).
+- **Range**: Human hearing typically ranges from 20 Hz to 20,000 Hz.
+- **Relevance**: Essential for melody and harmony in music.
+
+6. **Dynamics**:
+- **Notations**: Pianissimo, piano, forte, and fortissimo.
+- **Role**: Conveys emotion and emphasis in music.
+- **Effects**: Crescendo (increasing loudness) and decrescendo (decreasing loudness).
+
+7. **Resonance**:
+- **Examples**: Shattering glass with sound, bridge collapse due to wind.
+- **Importance**: Essential for musical instrument design.
+- **Principle**: Occurs when an object's natural frequency matches an external frequency.
+
+8. **Soundstage**:
+- **Depth**: Perceived distance from the listener.
+- **Width**: Left to right perception.
+- **Height**: Vertical perception, less common in recordings.
+- **Applications**: Critical in high-fidelity audio and home theater setups.
+
+9. **Echo**:
+- **Cause**: Sound reflecting off surfaces and returning to the listener.
+- **Environment**: More pronounced in large, open spaces like canyons or cathedrals.
+- **Difference**: Not to be confused with reverb, which is a multitude of reflections.
+
+10. **Noise Cancellation**:
+- **Technologies**: Active and passive noise cancellation.
+- **Applications**: Headphones, earbuds, and some car interiors.
+- **Principle**: Uses destructive interference to reduce unwanted sound.
+
+Embodiment:
+- **Body Dysmorphia**: A distorted perception of one's body.
+- **Dissociation**: Feeling detached from oneself.
+- **Embodied Cognition**: The interplay between our physical actions and our cognitive processes.
+
+
+Development:
+
+Identity:
+
+Emotions:
+- 1 emote = 1 bit of mutual information wrt the objective
+- multidimensional:
+  - 80% chimp 20% bee
+  - some dimensions disentangle social/self rewards
+  - self-self: intrinsic, innate desire to learn, will to live, grattitude for existence
+  - self-environemnt:  extrinsic/individualized rewards
+  - social self - social environment
+    - when people depended on each other, they depended on group esteem: social esteem
+    - now people depend on self-esteem: reputation, self-esteem, social status
+  - other reward component objectives represent the variance of individual preferences
+- Pleasure, pain, and sufferring: the self di/sintegrating instrinsic dynamics of information system together with their reward proxies
+  - sufferring as feeling the aversion of the superorganism that is Life
+
+- An organism with very low verbal but high mathematical ability wouldn't be discerned as intelligent
+  - We develop consciousness to mediate the social interactions
+  - Verbal ability -> consciousness
+    - allows more social intelligence
+    - allows more analogies (ie, high entropy constellation of symbols to relate to)
+    - LLMs doing proto consciousness when feeding prompt
+    - language becomes a medium for reflecting on the self
+    - increase in the number of internal symbols means more consciousness
+      - is why teaching language is so important
+      - more symbols -> more nuance -> more consciousness
+
+0, s1, s2
+
+s2 - s1
+
+
+h1
+h2
+h3
+h4
+h5
+
+s1 h_s1 f12 f13
+s2 h_s2 f21 f23
+s3 h_s3 f31 f32
+
+
+
+
+
+  - the ordering of symbols on a layer 
+    - eg, say elem A interacts with elem Z; then there is more cross-contamination between A and Z than if they were reversed
+
+  - Mathematical ability is mechanical
+
+- Cognitive skill overlap
+- Generalized intelligence
+
+- Emotions as fuzzy labels of emotive dynamic structures
+  (for each of them, include the thought process, definition principles, and mathematical grounding)
+    Happiness:
+    - ecstasy, pleasure, 
+    Sadness:
+    
+    Empathy:
+    Trust:
+    Hope:
+    Jealousy:
+    Gratitude:
+    Envy:
+    Loyalty:
+    Guilt:
+    Disappointment:
+    Uncertainty:
+    Cooperation and Competition:
+    Fairness:
+    Curiosity:
+    Regret:
+    Strategizing:
+    Anticipation:
+    Surprise:
+    Collaboration Intensity:
+    Risk Aversion:
+    Embarrassment:
+    Love (Agape):
+    Love (Eros):
+    Love (Storge):
+    Love (Philia)
+    Pride: 
+    Awe: 
+    Nostalgia:
+    Serendipity:
+    Wanderlust:
+    Resilience:
+    Curiosity:
+    Contentment:
+    Melancholy:
+    Euphoria:
+    Compassion:
+    Reverie:
+
+Aesthetics:
+- aesthetic value: the value of an object or experience that derives from the object or experience’s capacity to elicit an aesthetic experience
+- aesthetic experience: an experience qualitatively different from everyday experience, characterized by a sense of unity and fulfillment
+- aesthetic value: a value function of the aesthetic experience 
+- beauty is in the eye of the beholder
+- pretty
+
+Sexuality:
+- Def: sexual identity, sexual orientation
+- Examples of terms applied to unique combinations
+- Our approach: rather than lump all sexual characteristics into a categorical value, consider all the fetisches and kinks a person may have an then identify the clusters corresponding to “hetero male”, “lesbian”, etc. as well as unique subsymbolic features
+
+Morality:
+- free will
+- goodness
+
+Social life:
+- **The Reward Space Framework**
+  - Introduction to the reward space for multi-agent environments
+  - Mathematical definitions of reward vectors:
+    1. \( r_{\text{selfish}} \)
+    2. \( r_{\text{friendly}} \)
+    3. \( r_{\text{altruistic}} \)
+    4. \( r_{\text{suicidal}} \)
+    5. \( r_{\text{kamikaze}} \)
+- **Collective Effervescence**: Shared excitement or emotion within a group.
+- **Mob Mentality**: How people are influenced by their peers to adopt certain behaviors or beliefs.
+- **Belonging**: A sense of acceptance and inclusion within a group or community.
+
+
+Spirituality:
+- Spirituality: connection to something greator than oneself
+- **Noetic Quality:** A sense of encountering ultimate reality or truth, often described as a more "real" or "authentic" experience than ordinary experiences.
+- **Concept of the "Self"**: The ongoing quest to define and understand one's identity.
+- **Cosmic Insignificance**: The realization of our minute existence within the vastness of the universe.
+- Transcendental experiences:
+    - beyond ordinary, altered state of consciousness, sense of unity, strong positive emotion (felicity, peace, awe), inneffability (beyond words), profound insight, long lasting / profound impact
+    - human intervention is considered transcendental to the AI
+- **Search for Meaning**: The intrinsic desire to find an ultimate objective to pursue
+
+Mortality
+- **Existential Dread**: A profound sense of unease about …
+
+Conclusion:
+

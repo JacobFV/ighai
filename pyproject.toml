@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "informally-grounded-humane-ai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "informally_grounded_humane_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+networkx = "^3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,7 @@
+Emotions are complex mental states that involve one's physiological state, appraisal of a situation, expressive behavior, and conscious experience. They are influenced by our thoughts, experiences, and values and can have a significant impact on our behavior and well-being.
+
+As conscious qualia, emotions are difficult to define, and regardless of any label we assign to a readout estimator of it, the experience of that information-dynamic is unique to the agent experiencing it. Nonetheless, we can attempt to formalize the dynamics of emotions in a way that is useful to our purposes. As with qualia, let e_{\dot} denote the intensity of the emotion in subscript.
+
+The extent to which emotions can be decomposed into fundamental building blocks is a matter of debate. Some researchers have suggested that emotions are best thought of as a combination of core affect (the experience of pleasure-displeasure and arousal-nonarousal) and cognitive appraisals, while others have suggested that emotions can be decomposed into more basic components. In this article, we will focus on the former approach, which is more consistent with the idea of emotions as a subjective experience.
+
+As emotions are deeply personal experiences, I'd like to apologies in advance if I fail to capture your own experience of them. I hope that you will find the following discussion useful nonetheless and adapt it as you see fit.

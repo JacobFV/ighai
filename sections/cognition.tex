@@ -1,0 +1,250 @@
+- noise
+- signal
+- information
+- insight (action informative)
+- thought
+- personality
+
+- zipf's law: word-frequency 80-20 rule
+
+---
+
+- how can you tell the difference between things?
+    - compare two things and then consider the difference
+
+s_the: instantiation
+s_I: the (self)
+s_a: instantiation (indeterminate)
+s_it/that: instantiation (determinate)
+s_be: assignment
+s_of: flowing from X
+s_to: flowing to X
+s_and: symbols existing simultaneously
+s_in: membership
+s_have: possession (membership from the parent)
+S_core = \{s_the, s_I, s_a, s_it, s_be, s_of, s_to, s_and, s_in, s_have\}
+S_other = \{\}
+S = S_core \cup S_other
+
+- Artificial syndifeonesis: the ability to adjust a partition function to accommodate a new symbol
+
+
+s_obj === f_emb(G_a)
+
+```python
+
+class Modality:
+    pass
+
+class InputModality(Modality):
+    def get(self) -> T:
+        pass
+
+class OutputModality(Modality):
+    def set(self, value: T):
+        pass
+
+class InputOutputModality(InputModality, OutputModality):
+    pass
+
+
+l_eye, r_eye, l_ear, r_ear, mouth, skeletal_movement = ...
+
+SIMILARITY_EARLY_EXIT_THRESHOLD = 0.8
+
+class Symbol:
+    children: Symbols[]
+
+    @abstractmethod
+    def abstraction_gen(self) -> Generator[Symbol, None, None]:
+        pass
+
+    def compare(self, other) -> Symbol:
+        self_abs_gen = self.abstraction_gen()
+        other_abs_gen = other.abstraction_gen()
+
+        for self_abs, other_abs in zip(self_abs_gen, other_abs_gen):
+            if self_abs == other_abs:
+                return self_abs
+        
+        delta = self_abs - other_abs
+        return AtomicSymbol(delta)
+
+class AtomicSymbol(Symbol):
+    emb: Tensor
+
+    def abstraction_gen(self) -> Generator[Symbol, None, None]:
+        yield self
+
+class Graph(Symbol):
+    verts: Symbol[]
+    edges: list[Tuple[Symbol, Symbol]]
+
+    # @cached_property
+    # def emb(self) -> Tensor:
+    #     # some function of the graph
+    #     ...
+
+    def subgraphs(self) -> Generator(Graph):
+        ...
+
+    def sim(self, other) -> float:
+        maxsim = 0
+
+        if self == other:
+            maxsim = 1.0
+
+        for children in self.children:
+            maxsim = max(maxsim, children.sim(other))
+            if maxsim > SIMILARITY_EARLY_EXIT_THRESHOLD:
+                return maxsim
+
+        for subgraph in self.subgraphs():
+            subgraph_percentage = (len(subgraph.nodees) / len(self.nodes)) * (len(subgraph.edges) / len(self.edges)
+            maxsim = max(maxsim, subgraph_percentage*subgraph.sim(other))
+            if maxsim > SIMILARITY_EARLY_EXIT_THRESHOLD:
+                return maxsim
+
+        return maxsim
+
+    def abstraction_gen(self) -> Generator[Symbol, None, None]:
+        yield self
+
+        while len(edges) > 0:
+            # weight the edges based on the degree of the node
+            # stochastically remove the lowest-weighted edge
+            # yield the resulting graph
+            ...
+
+"""
+f_A: obs , wmg -> pred, wmg'
+f_B: obs , wmg -> pred, wmg'
+
+f_A(f_B(f_A(...)))
+
+
+# return the number of similarity of subgraphs in the graph
+# the more isomorphic causal subgraphs, the more powerful it is
+# consider a subset of a graph as being a particular word or idea
+# you want to increase to isomorphism between internal representations and external concepts
+
+nA -> nB: cause to effect
+
+innacurate comparisons is when a subset matches but its neighboring context isn't relevant
+
+a subgraph that's able to fit into a graph that being built
+- MTM: the scope of symbol under unconscious consideration for subgraph matching
+- STM:
+    - symbols available to condition downstream functions
+    - determine the subgraph isomorphism comparison precedence
+"""
+
+# metaphor finds similar essence in different concepts
+
+class Brain:
+
+    modalities: Modality[] = l_eye, r_eye, l_ear, r_ear, mouth, skeletal_movement
+
+    s_ltm: GraphSymbol # all known information, requires procedural access for scale efficiency reasons
+    s_mtm: GraphSymbol # symbols accessible for matching, but not for testing all permutations over
+    s_stm: GraphSymbol # continued ripple of perception, declarative/implicit matching baked into the perception process
+
+    def perception(self):
+        encs = [modality.encode(modality.get()) for modality in self.modalities]
+        s_obs = AtomicSymbol(self.fuse(encs))
+
+        # if s_obs doesn't exist in s_mtm, create it:
+        for vert in self.s_mtm.verts:
+            if vert.sim(s_obs) > THRESHOLD:
+                return
+        self.s_mtm.verts.append(s_obs)
+
+        # use the symbols in the stm to compose a symbol for the s_obs that matches simething in mtm
+        for s_subgraph in self.s_stm.subgraphs:
+            if s_subgraph.sim(s_obs) > THRESHOLD:
+                s_mtm.connect(s_obs, s_subgraph)
+                return
+
+1 ---> 2 ---> 3 ---> 4
+
+Y ---> Z
+
+
+# TODO: "thing" is the root node of all nodes
+# TODO: the "identity implication" applies to the root node, and it is the fundamental operator
+
+# the directed edge is the only operator
+
+# the implications of a chain of parent nodes would differ from another chain
+
+# the combination of nodes defines what the operator is doing
+# 1+1=2 === 1->G_add_1=2
+# 1 -> G_add -> G_add_1 = G_inc
+# 5 -> G_inc -> 6
+# loop through a subgraph x number of times
+```
+
+```text
+G = <V, E>
+
+- go to the last node in the subgraph, if it wants to iterate it will point to its 
+
+
+```
+
+
+s1 -> s2
+s2 -> s3
+g1 <- s1
+g1 <- s2
+g1 <- s3
+g1 -> s_obs
+
+
+-------------
+
+```
+the final node of the increment subgraph would be the copy of the increment subgraph
+represent the values as nodes themselves
+
+g_digits0-9 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+g_digits_bin = {0, 1}
+
+3 g-digit bins and then assign a binary literal to each bin
+
+1     0     1
+v1 -> v2 -> v3
+v1 -> v1
+v3 -> v3
+
+if it recieves the function 1+1, it will cal the appropriate code function
+
+however many nodes in the subgraph is the same os how many iterations it will do
+
+clearly define how to represent a number in graph format
+
+1     1     0
+v1 -> v2 -> v3
+v1 -> v1
+v2 -> v2
+
+
+
+a1 -> a2 -> a3 -> a4
+b1 -> b2 -> b3 -> b4
+opp_add
+
+a4 , b4 -> opp_add
+
+
+(a1 -> a2 -> a4 , b1 -> b2 -> b3 -> b4 -> opp_add) -> 
+    (if a4 == 0 and b4 == 0 then modify nothing an copy into c4, repeat on a3, b3)
+    (if a4 == 0 and b4 == 1 then modify a2)
+    ...
+    ...
+
+
+
+
+```
