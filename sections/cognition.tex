@@ -233,16 +233,46 @@ v2 -> v2
 
 a1 -> a2 -> a3 -> a4
 b1 -> b2 -> b3 -> b4
-opp_add
+X , Y -> opp_add -> Z
+A + B + C = (A+B)+C
 
 a4 , b4 -> opp_add
-
 
 (a1 -> a2 -> a4 , b1 -> b2 -> b3 -> b4 -> opp_add) -> 
     (if a4 == 0 and b4 == 0 then modify nothing an copy into c4, repeat on a3, b3)
     (if a4 == 0 and b4 == 1 then modify a2)
     ...
     ...
+
+
+
+
+1. construct a new subgraph matching 1+1 and then make that subgraph match to 2
+
+exponential notation would enable use to have repetitive strings for the primray nubmers
+
+2: 11
+3: 111
+
+G0 = {V0, E0}
+V0 = {} + the g0 root node
+E0 = {}
+
+G1 = {V1, E1}
+V1 = {g0, v1} + the g1 root node
+E1 = {(g0, g1), (v1, g1)}
+
+G2 = {V2, E2}
+V2 = {g1, v2} + the g2 root node
+E2 = {(g1, g2), (v2, g2)}
+
+G3 = {V3, E3}
+V3 = {g2, v3} + the g3 root node
+E3 = {(g2, g3), (v3, g3)}
+
+
+
+
 
 
 

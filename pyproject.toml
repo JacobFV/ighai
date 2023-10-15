@@ -10,6 +10,7 @@ packages = [{include = "informally_grounded_humane_ai"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 networkx = "^3.1"
+matplotlib = "^3.8.0"
 
 
 [build-system]
