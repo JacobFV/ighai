@@ -1,3 +1,4 @@
+import re
 from functools import cache
 import itertools
 import networkx as nx
@@ -21,8 +22,11 @@ def make_g_n(num: int) -> nx.DiGraph:
 
 def get_peak(g: nx.DiGraph) -> str:
     # g is a dag tree like so: g0, g0,v1->g1, g1,v2->g2, ...
-    node_with_most_children = max(g.out_degree(), key=lambda x: x[1])
-    return node_with_most_children[0]
+
+    g_nodes = [node for node in g.nodes if re.search(r"[A-Za-z]*g\d", node)]
+    g_numbers = [int(re.search(r"\d+$", node).group()) for node in g_nodes]
+    max_index = g_numbers.index(max(g_numbers))
+    return g_nodes[max_index]
 
 
 ALL_NUMBERS = [make_g_n(i) for i in range(10)]
@@ -34,17 +38,6 @@ def determine_number(G: nx.DiGraph) -> int:
         GM = isomorphism.DiGraphMatcher(G, num)
         if GM.is_isomorphic():
             return i
-
-
-# # def evolve(state: nx.DiGraph, operators: list[nx.DiGraph]) -> nx.DiGraph:
-# def evolve(state: nx.DiGraph) -> nx.DiGraph:
-#     pass
-
-
-# g_add_operator = nx.DiGraph()
-# g_op = g -> g'
-# g -> x,y,u,x,,r
-# g' -> x,u,r
 
 
 def combine_graphs(gs: list[nx.DiGraph] | dict[str, nx.DiGraph]) -> nx.DiGraph:
@@ -69,31 +62,13 @@ def combine_graphs(gs: list[nx.DiGraph] | dict[str, nx.DiGraph]) -> nx.DiGraph:
 def add(gx, gy) -> nx.DiGraph:
     state_graph = combine_graphs({"x": gx, "y": gy})
 
-    # the uppermost node of the first addend points to the bottommost node of the 2nd addend
-    # assuming the uppermost node of gx is "g0" and the bottommost node of gy is "g{len(gy.nodes)}"
     uppermost_node_gx = f"x/{get_peak(gx)}"
-    bottommost_node_gy = "y/g0"
-    state_graph.add_edge(uppermost_node_gx, bottommost_node_gy)
-
-    # also create a y/v0 since it is no longer a leaf
-    state_graph.add_node("y/v0")
-    state_graph.add_edge("y/v0", bottommost_node_gy)
+    lowermost_node_gy = f"y/g0"
+    state_graph = nx.relabel_nodes(state_graph, {lowermost_node_gy: uppermost_node_gx})
 
     return state_graph
 
 
-# # Find subgraphs that match the pattern
-# for sub_nodes in nx.ego_graph(G, "g1"):
-#     subgraph = G.subgraph(sub_nodes)
-#     GM2 = isomorphism.DiGraphMatcher(subgraph, GM)
-#     if GM2.is_isomorphic():
-#         print("Found a match!")
-#         # Replace the subgraph
-#         mapping = {"v2": "v2_replaced"}
-#         G = nx.relabel_nodes(G, mapping)
-
-
-# Function to print the graphs with a solid blue border around each subplot and a larger window size
 def print_graphs(graphs):
     fig, axs = plt.subplots(
         1, len(graphs), figsize=(15, 10)
@@ -101,18 +76,6 @@ def print_graphs(graphs):
     for i, G in enumerate(graphs):
         pos = nx.spring_layout(G)
         nx.draw(G, pos, with_labels=True, ax=axs[i])
-        axs[i].spines["top"].set_color(
-            "blue"
-        )  # Set the color of the top border to blue
-        axs[i].spines["bottom"].set_color(
-            "blue"
-        )  # Set the color of the bottom border to blue
-        axs[i].spines["left"].set_color(
-            "blue"
-        )  # Set the color of the left border to blue
-        axs[i].spines["right"].set_color(
-            "blue"
-        )  # Set the color of the right border to blue
     plt.show()
 
 
@@ -122,21 +85,53 @@ def test_add(x, y):
     g_add = add(gx, gy)
     result = determine_number(g_add)
     print(f"{x}+{y}: expected: {x+y}, got: {result}")
-    print_graphs([gx, gy, g_add])
+    # print_graphs([gx, gy, g_add])
 
 
-# import sys
-# import keyboard
-
-
-# def signal_handler(e):
-#     print("You pressed Ctrl+C!")
-#     sys.exit(0)
-
-
-# keyboard.on_press_key("c", signal_handler, suppress=True)
-# print("Press Ctrl+C")
-
-
-for x, y in itertools.product(range(10), range(10)):
+for x, y in itertools.product(range(0, 6), range(4)):
     test_add(x, y)
+
+"""
+special nodes:
+- chain trees are interpretted as a unary literal
+- the times node is a special
+- add nodes are for composiing the 1's, 10's, and 100's places
+
+G_145 = <V_145, E_145>
+V_145 = { g_{100*1}, g_{10*4}, g_{1*5} } + g_145
+E_compo,145 = {
+    (g_{100*1}, g_145),
+    (g_{10*4}, g_145),
+    (g_{1*5}, g_145),
+}
+E_struct,145 = {
+    (g_{100*1}, g_{10*4}),
+    (g_{10*4}, g_{1*5}),
+}
+E_repl,145 = {
+    (g_{100*1}, g_{100*1}),
+    (g_{10*4}, g_{10*4}),
+    (g_{1*5}, g_{1*5}),
+}
+
+G_{100*1} = <V_{100*1}, E_{100*1}>
+V_{100*1} = { g_{100} } + g_{100*1}
+
+---
+
+v_plus
+
+
+
+G = structure | composition | operation
+structure = <V, E_s>
+composition = <V, E_c>
+operation = <V, E_repl>
+
+- replacement edges
+- composition edges
+- structural edges
+
+
+
+"""
