@@ -29,7 +29,7 @@ def get_peak(g: nx.DiGraph) -> str:
     return g_nodes[max_index]
 
 
-ALL_NUMBERS = [make_g_n(i) for i in range(10)]
+ALL_NUMBERS = [make_g_n(i) for i in range(20)]
 
 
 def determine_number(G: nx.DiGraph) -> int:
@@ -85,10 +85,11 @@ def test_add(x, y):
     g_add = add(gx, gy)
     result = determine_number(g_add)
     print(f"{x}+{y}: expected: {x+y}, got: {result}")
-    # print_graphs([gx, gy, g_add])
+    if x + y == 18:
+        print_graphs([gx, gy, g_add])
 
 
-for x, y in itertools.product(range(0, 6), range(4)):
+for x, y in itertools.product(range(10), range(10)):
     test_add(x, y)
 
 """
@@ -128,7 +129,7 @@ structure = <V, E_s>
 composition = <V, E_c>
 operation = <V, E_repl>
 
-- replacement edges
+- replacement graph
 - composition edges
 - structural edges
 
