@@ -19,6 +19,12 @@ def make_g_n(num: int) -> nx.DiGraph:
     return G
 
 
+def get_peak(g: nx.DiGraph) -> str:
+    # g is a dag tree like so: g0, g0,v1->g1, g1,v2->g2, ...
+    node_with_most_children = max(g.out_degree(), key=lambda x: x[1])
+    return node_with_most_children[0]
+
+
 ALL_NUMBERS = [make_g_n(i) for i in range(10)]
 
 
@@ -65,10 +71,13 @@ def add(gx, gy) -> nx.DiGraph:
 
     # the uppermost node of the first addend points to the bottommost node of the 2nd addend
     # assuming the uppermost node of gx is "g0" and the bottommost node of gy is "g{len(gy.nodes)}"
-    uppermost_node_gx = f"x/g{len(gx.nodes)}"
+    uppermost_node_gx = f"x/{get_peak(gx)}"
     bottommost_node_gy = "y/g0"
-
     state_graph.add_edge(uppermost_node_gx, bottommost_node_gy)
+
+    # also create a y/v0 since it is no longer a leaf
+    state_graph.add_node("y/v0")
+    state_graph.add_edge("y/v0", bottommost_node_gy)
 
     return state_graph
 
@@ -84,12 +93,26 @@ def add(gx, gy) -> nx.DiGraph:
 #         G = nx.relabel_nodes(G, mapping)
 
 
-# Function to print the graphs
+# Function to print the graphs with a solid blue border around each subplot and a larger window size
 def print_graphs(graphs):
-    fig, axs = plt.subplots(1, len(graphs))
+    fig, axs = plt.subplots(
+        1, len(graphs), figsize=(15, 10)
+    )  # Increase the window size
     for i, G in enumerate(graphs):
         pos = nx.spring_layout(G)
         nx.draw(G, pos, with_labels=True, ax=axs[i])
+        axs[i].spines["top"].set_color(
+            "blue"
+        )  # Set the color of the top border to blue
+        axs[i].spines["bottom"].set_color(
+            "blue"
+        )  # Set the color of the bottom border to blue
+        axs[i].spines["left"].set_color(
+            "blue"
+        )  # Set the color of the left border to blue
+        axs[i].spines["right"].set_color(
+            "blue"
+        )  # Set the color of the right border to blue
     plt.show()
 
 
@@ -97,9 +120,22 @@ def test_add(x, y):
     gx = make_g_n(x)
     gy = make_g_n(y)
     g_add = add(gx, gy)
-    print_graphs([gx, gy, g_add])
     result = determine_number(g_add)
     print(f"{x}+{y}: expected: {x+y}, got: {result}")
+    print_graphs([gx, gy, g_add])
+
+
+# import sys
+# import keyboard
+
+
+# def signal_handler(e):
+#     print("You pressed Ctrl+C!")
+#     sys.exit(0)
+
+
+# keyboard.on_press_key("c", signal_handler, suppress=True)
+# print("Press Ctrl+C")
 
 
 for x, y in itertools.product(range(10), range(10)):
