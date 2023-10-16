@@ -5,7 +5,7 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "informally_grounded_humane_ai"}]
+packages = [{include = "ifhai"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -13,6 +13,9 @@ networkx = "^3.1"
 matplotlib = "^3.8.0"
 keyboard = "^0.13.5"
 attrs = "^23.1.0"
+langchain = "^0.0.315"
+pydantic = "^2.4.2"
+dm-tree = "^0.1.8"
 
 
 [build-system]
