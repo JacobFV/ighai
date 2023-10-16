@@ -16,6 +16,7 @@ attrs = "^23.1.0"
 langchain = "^0.0.315"
 pydantic = "^2.4.2"
 dm-tree = "^0.1.8"
+multipledispatch = "^1.0.0"
 
 
 [build-system]
