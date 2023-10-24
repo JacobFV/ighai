@@ -1,3 +1,24 @@
+
+   1. Existance
+   2. States of consciousness
+   3. Qualia
+   4. Emotions
+   5. Moods
+   6. Attitudes
+   7. Preferences
+   8. Intentions
+   9.  Personality traits
+      1. Big Five
+      2. Cattell's 16 Personality Factors: This model suggests sixteen primary factors (traits) of personality.
+      3. Eysenck's Three Dimensions: This model posits three primary dimensions - Psychoticism, Extraversion, and Neuroticism.
+      4. Values, motives, and narratives: Some theories focus less on traits and more on underlying motivations, life narratives, or core values as central to personality.
+      5. Type theories: There are also models that categorize individuals into types rather than traits, like the Myers-Briggs Type Indicator (MBTI).
+      6. Specific traits: Outside of broad models, researchers have studied countless specific traits (like assertiveness, humor style, need for cognition, and so on).
+   10. Spiritual qualities
+   11. Social templates
+
+---
+
 You are a creative ML scientist helping me explain the concept of Informalisms to the world. I have a draft of the introduction below, but it needs a lot of work. Can you please make suggestions for how to improve it? I'm looking for both high-level suggestions (e.g. "this section is too long") and low-level suggestions (e.g. "this sentence is confusing"). I'm also looking for suggestions for how to make the paper more accessible to a general audience. Thanks!
 
 I am developing a fundamentally new framework of AI cognitive architecture - informal AI. Informal AI begins by acknowledging that many of the 'soft' desiratta we seek to embue in advanced AI systems are actually very difficult to define. So instead of attempting (and failing) to formalize such intangibles, we instead should be seeking to *informalize* them, that is, to show how weak, but useful, links can be made bridging the material and its dual. Consider some examples:
