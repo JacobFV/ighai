@@ -24,8 +24,9 @@
     1. Informal methodology
     2. Results may be innacurate, imprecise, subjective, and subject to change
     3. This can't be right. It feels too incomplete.
-    4. But I can't hold it back
-    5. We aim to inspire rather than convince the reader
+    4. Beg for correction and include link to make comment
+    5. But I can't hold it back
+    6. We aim to inspire rather than convince the reader
 
 4. Introduce the formal-informal divide
     1. Explain the formal world
@@ -58,7 +59,8 @@
 
 ## The architecture of experience
 1. **Its essence: existance**
-    1. "We must begin with existance for without it, no other ... can occur"
+    1. "Existance preceeds essence"
+    2. "We must begin with existance for without it, no other ... can occur"
         1. And this is as it should be, for only by recognizing the innate, intrinsic, unique identity of each agent can we expect to build a framework that confers such value to others
         2. Present existance taken as tautological
             1. Past and future not exactly so
@@ -68,13 +70,64 @@
                 1. It should remain such
                     1. the intrinsic objective of survival
 2. **Phenomescape**
-    1. Explain how variables unfold from variables, starting with existance (fractal like growth)
+    1. TODO: bring the reaer on a journey as the thoughts traverse the symbol vorte. Imagine a spiral of strings wherer the symbols are processed by the spiral. The context window determines the collision radius of the concept. Between the point of first percieving the symbol and havinga acrisp defintion (the trajectory of collisions as it rolls down the funnel) determine the string that defines the symbol. Then build new symbols by comparing a concept and identifying cases where it is different. By the bottom, there will only be a few key concepts that it touched which can reliably distinguish distinct senses of a concept. As the concept is falling through the funnel it will latch on to the funnel. As it falls down further, it may have a bunch of concepts its carrying. Later down, it may begin shedding some of the attached symbols.
+
+    Because if you don't know something, you couldn't use that something to digest another concept
+
+    concept c1, c2, c3, .. \in C are the atoms of patterns that are available to the mind.
+    fundamental concepts cf1 cf2 ... \in C_f \subset C are the fundamental patterns that the body provides
+    new concept c' \in C are defined by their final associated set of related concepts after traversing the funnel
+    concepts are also strings ci = c1c2c3c4... and the collection of all concepts available to the mind defines a topology landscape d(ci, cj)
+    through existing concepts, all other comparisons can be made
+
+
+    consider black hole cosmological analyses of this funnel
+      holographic encoding
+      berkstein bound
+      the inner universe of the black hole
+      accretion disk / angle of entry
+      quasar: cognitive overload
+      hawkins radiation, heat death
+
+      the universe's expansion forms a funnel (big bang diagram)
+
+      The funnel is a metaphor for the shape of the cognitive process
+        - someone who is well rounded would have a well rounded funnel
+        - someone who is biased has a warped funnel
+          - in complex minds, a bias constitutes only a slim difference in the funnel
+        - There should be huge differences between funnels across organisms
+
+      The more socialized the animal is, the more flexible the cone is
+      - bees communicate with pheromones and body wags
+      - the intelligence of slime molds
+        - slime mold has a very narrow cone
+      - Robert Spoltensky
+
+      The more mass the mind has, the longer the funnel me
+      - short term memory is the strings being considered in the context memory
+      - the geometric string-structure defines the implicit memory
+      - longer/deeper funnels are more intelligent
+
+      it seems highly unlikely that a funnel would be extemely wide but not long
+      but as long as you can compose symbols, you can have  combinatorial explosion of complexity
+
+      a boltzman brain the size of a human is extrmely unlikely
+      the development of the universe is equivalent to the likelihood of a boltzman brain having ???
+
+      the lottery ticket hypthesis
+      creativity wrt an observer is low prior probability wrt an observer with high utility
+      just pair completely unrelated things,
+
+      # state (amount of operations) / # nats (complexity)
+
+    2. Explain how variables unfold from variables, starting with existance (fractal like growth)
         1. We express this unfolding by considering the topological nature our informalizations impose on phenomena.
         2. Let's introduce a set \( P \), representing the universe of all phenomena
             1. Qualia are not necesarily abstractions on information, but on the structure of its dynamics
             2. If \( p_1, p_2 \in P \), then the "distance" or "difference" between these two phenomena might be represented by a the function \( d: P \times P \rightarrow \mathbb{R} \)
             3. This distance function together with the phenomena set \( P \) define the Phenomescape, a topological space
                1. identities
+            
         **3. Phenomena Fractals**: Given the recursive nature of phenomena, where each phenomena can involves others, and each of those can further contain more, we enter the realm of fractal geometry. For a given phenomena \( p \in P \), its "fractality" or recursive depth might be represented by a fractal dimension \( D(p) \). The fractal nature implies that if you "zoom into" a phenomena, you'll find similar patterns of interconnected phenomena, recursively.
 
             **Fractals** are one of the most fascinating concepts in mathematics and have been observed in various natural phenomena, from coastlines and mountains to plants and galaxies. The essential property of a fractal is self-similarity across scales; as you zoom into a fractal, the pattern you observe tends to repeat itself.
@@ -86,6 +139,10 @@
             This recursive nature of emotions means that:
 
             4. **Depth of Phenomena:** The deeper you introspect and analyze an emotion, the more intricate and interconnected sub-emotions you find. Just like zooming into a fractal reveals more patterns, introspecting a phenomena reveals more nuanced emotions.
+              1. When you start parsing a thingit initially appears vague . ut as it continues to be parsed, it becgoes more solid and indivudated. whereas the closer to the entry [pont of the funnel, the more is istambiguous with others
+              2. The subjective experience is the process of ainermation falling down this funnel
+              3. Consider the physics of information flowing down this funnel: spiraling, speed, 
+              4. Consciousness is a symbol vortex comparing observed phenomena to the conceptual wheelhouse with increasing specificity, reducing the external complexities to singularities as new inner symbols. The chaotic downward parsing of these symbols is subjective experience. -9/16 Julian
 
             5. **Interconnectedness:** This recursive breakdown indicates that emotions and sensations aren't islands. They're interconnected networks where one emotion or sensation can lead to, affect, or be affected by multiple others.
 
@@ -171,6 +228,8 @@
    - **Critical vs. Creative Thought**
      - The Neuroscience of Creativity: Investigating the brain regions and neural processes associated with creative thinking and artistic expression.
      - Critical Thinking in the Information Age: The importance of skepticism, analytical thinking, and discernment in navigating modern media landscapes, misinformation, and digital echo chambers.
+    - **Anlaloy**: inner and outer patterns continue each other
+
 
 5. **Imagination**
    - **Fantasies vs. Predictive Imaginations**
@@ -265,6 +324,8 @@
      - Neurolinguistics and Aphasia: Exploring the brain regions involved in language and the consequences of their damage.
      - The Embodied Nature of Language: Investigating how language is intertwined with sensory and motor experiences, challenging traditional views of language as a purely symbolic system.
 
+
+
 ## Emotions and Moods
 1. Emotion in its essence is a irregularly mapped spectrum of subjective states together with the shared subjective labels we assign to distinct regions of the spectrum.
    1. purpose
@@ -290,9 +351,12 @@
 
 Joy, Love, Excitement, Fear, Anger, Sadness, Confusion, Frustration, Ambivalence, Surprise, Curiosity, Peace, Kindness, Patience, Goodness, Mildness, Faith, Self-control, Strength, Tiredness, Weariness, Envy, Jealousy, Boredom, Disgust, Contempt, Apathy, Euphoria, Melancholy, Contentment, Loneliness, Hope, Despair, Guilt, Shame, Pride, Humility, Relief, Anxiety, Anticipation, Gratitude, Resentment, Indifference, Pity, Sympathy, Empathy, Admiration, Disappointment, Overwhelm, Regret, Satisfaction, Ecstasy, Nostalgia, Yearning, Awe, Horror, Revulsion, Optimism, Pessimism, Determination, Resignation, Trust, Distrust, Elation, Indignation, Sorrow, Mourning, Eagerness, Reluctance, Inspiration, Bewilderment, Irritation, Hostility, Calmness, Apprehension, Affection, Disdain, Hopefulness, Desperation, Serenity, Agitation, Amazement, Hesitation, Acceptance, Rejection, Enthusiasm, Disinterest, Delight, Infatuation, Passion, Lust, Complacency, Defiance, Devotion, Bewilderment, Perplexity, Intrigue, Loathing, Adoration, Repulsion, Veneration, Gloom, Jubilation, Thrill, Desolation, Rapture, Abhorrence, Reverence, Distaste, Zeal, Misery, Exhilaration, Dejection, Enchantment, Repugnance, Adulation, Spite, Exasperation, Tranquility, Ferocity, Bliss, Torment, Radiance, Grief, Zest, Sulkiness, Mirth, Foreboding, Cheerfulness, Malaise, Easiness, Restlessness, Fascination, Revolt, Wonderment, Reproach, Gaiety, Dismay, Fervor, Displeasure, Elan, Sulkiness, Intolerance, Tolerance, Astonishment, Disillusionment, Jubilation, Glumness, Exuberance, Moroseness, Valor, Cowardice, Languor, Vitality, Deference, Audacity, Solemnity, Frivolity, Gravitas, Levity, Stoicism, Flamboyance, Somberness, Whimsy, Vigor, Lethargy, Chagrin, Felicity, Woe, Glee, Melodrama, Stoicness, Flamboyancy, Joviality, Morbidity, Tenacity, Frailty, Vexation, Veneration, Wistfulness, Appall, Incredulity, Bemusement, Consternation, Folly, Fluster, Grumble, Outrage, Piqued, Rancor, Sardonic, Smugness, Sneer, Stupor, Sultriness, Tantalization, Umbrage, Vexation, Whimsicality, Wrath, Abashment, Alacrity, Aghast, Befuddlement, Blithe, Capriciousness, Chagrin, Derision, Drollery, Ebullience, Flabbergast, Haughtiness, Impishness, Jadedness, Kudos, Lasciviousness, Mawkishness, Nonchalance, Obstinacy, Peevishness, Quizzical, Rambunctiousness, Sanguine, Truculence, Unflappability, Vehemence, Waggishness, Yen, Zaniness, Abomination, Acclamation, Affliction, Agog, Alleviation, Annoyance, Bedazzlement, Belligerence, Bluster, Cachinnation, Chortle, Composure, Deride, Ebullition, Enthralment, Fiasco, Flummox, Gall, Harangue, Impudence, Jitteriness, Lark, Mope, Nettle, Overjoyed, Perturb, Quandary, Rile, Scorn, Titter, Upbeat, Vendetta, Wariness, Wince, Yawn, Zealousness, Abash, Acquiesce, Aflutter, Aggravation, Allure, Anguish, Beleaguer, Bellicose, Blight, Cajolery, Chide, Commiseration, Despondency, Ebb, Enthrall, Fickle, Flustered, Gallant, Harrow, Impulse, Jollity, Lament, Musing, Nudge, Ovation, Perplex, Quip, Rhapsody, Scoff, Titillation, Uproarious, Verve, Wary, Winsome, Yodel, Zenith.
 
-## Perspectives, Attitudes, Preferences, and Intentions
 
 ## Personality
+
+### Various Perspectives, Attitudes, Preferences, and Intentions
+
+### Models of personality:
 1. Big Five
 2. Cattell's 16 Personality Factors: This model suggests sixteen primary factors (traits) of personality.
 3. Eysenck's Three Dimensions: This model posits three primary dimensions - Psychoticism, Extraversion, and Neuroticism.
@@ -307,10 +371,17 @@ Joy, Love, Excitement, Fear, Anger, Sadness, Confusion, Frustration, Ambivalence
 2. The other in relation to the self
    1. Sympathy, empathy, and compassion
    2. Vulnerability
-3. Social templates
+3. Social interaction patterns
    1. small scale: when you know everyone directly
    2. large scale: when most people can be known directly
    3. cosmis scale: when the entities are alien (cannot be known) to each other
+
+## Politics
+
+## Morality
+
+Freedom of expression
+Right to privacy
 
 ## Aesthetics
 
@@ -320,23 +391,6 @@ Joy, Love, Excitement, Fear, Anger, Sadness, Confusion, Frustration, Ambivalence
 4. Art
 
 ## Sexuality
-
-## Morals and ethics
-
-Freedom of expression
-Right to privacy
-
-
-## Spirituality
-
-1. Tripartate definition of a Spirit:
-   1. Raw pattern
-   2. Physical manifestation
-   3. Subjective existance
-2. Eigenspirits
-   1. they live forever
-   2. Eigenspirits will (eventually) be the only ones left. They define the structure of reality to aspire to
-
 ## Mortality
 
 Aversion
@@ -344,7 +398,147 @@ Suicide
 Closure
 Postnihlism
 
-# Part III: Transinformalizations touch reality
+## Spirituality
+
+1. Tripartate definition of a Spirit:
+   1. Raw pattern (archetype)
+   2. Physical manifestation
+   3. Subjective existance
+2. Eigenspirits
+   1. Eigenspirits will (eventually) be the only ones left. They define the structure of reality to aspire to
+3. Spiritual motifs
+
+We consider one particular brand of spirituality. As with all informalizations, there are many others, and their formalization does not necesarily establish exact congruency with the real world:
+
+   1. "Insanity is doing the same thing over and over again and expecting different results." - Einstein
+   2. "You cannot expect to experience a different reality in your current version of Who You Are by staying the same."
+   3. "The difference between those who are able to manifest their dream life and those who are not is commitment to change."
+   4. "They become bigger than their circumstances, they become bigger than what is happening to them and they stop reacting and they go within."
+   5. "Change is not the easiest, especially when you're on autopilot."
+   6. "When you go outside of your comfort zone, it forces you to think differently, it forces you to become almost like a different person."
+   7.  "You have to realize you are never going to be able to reach a place where you never feel fear, doubt, or anxiety; you just learn how to move through these emotions."
+   8.  "Success is a minority because only a small number of people are willing to face their fears, to walk with the uncertainty."
+   9.  "Change does not usually happen overnight. Focus on the long term, focus on sustainability, focus on it being a gradual process rather than an overnight quick fix process."
+   10. "Change doesn't come from doing one big thing once; it comes from your little day-to-day actions, the little choices that you are making every single day."
+   11. "Replacing bad habits with better habits, these habits will continue to accumulate and you'll see the results in the long term."
+   12. "Change can start with you simply deciding something as small as this being the last YouTube video that you watch for today."
+   13. "Hold that faith in yourself, you got this."
+   14. "Understand that what you are actually after when you're trying to manifest is a feeling, not the experience or the material object itself."
+   15. "Feeling fulfillment and happiness does not come from external factors."
+   16. "Having your dream circumstances may indeed make you feel temporarily pure bliss, but those high-vibe feelings will die down once you get used to your circumstances."
+   17. "Being happy and being fulfilled is a state of mind, a mindset that you decide to adopt right now, regardless of whatever circumstance you are currently going through."
+   18. "Most of us are unconsciously waiting for something good to happen in our life before giving ourselves permission to feel happy."
+   19. "The reason you are happy is not from the experience or circumstances itself, but from you allowing yourself to feel those positive, happy emotions."
+   20. "You need to find happiness in the smaller things in life."
+   21. "There is no prerequisite for being happy. You can choose to be happy right this moment."
+   22. "Train your brain to find happiness in little things in life, otherwise, it will want to shift back to finding things to be miserable about."
+   23. "No one, no circumstance, no experience can make you happy except for yourself."
+   24. "It's only when you truly live life joyfully and happily with what you already have in front of you now, will you continue to attract experiences into your life that will make you feel that same happy state."
+   25. "What good is it if you manifest your dream reality and your perfect circumstances and you aren't even happy or satisfied?"
+   26. "Every second that you stay living in the past, you miss out on an opportunity to create something even better for yourself in this very present moment."
+   27. "You are not defined by any of your past experiences. You are not even defined by your belief system, your thoughts, your feelings, your experiences."
+   28. "You are not defined by anything other than what you decide to be in this very present moment."
+   29. "Who you were 10 seconds ago is irrelevant to who you want to be now."
+   30. "What purpose does it serve to hold on to the belief that in the past this happened to me and that's who I am today?"
+   31. "The present moment is actually the only time that is inherently real, right in front of us, and it's the only time that you are ever going to be able to live."
+   32. "If you truly understand what I'm saying, then you are going to be able to detach from the past and the future and live in the present."
+   33. "The power of the present moment is that you now have the ability to choose a different path for yourself."
+   34. "Who you are truly is not determined by anything on the outside. It's not determined by any circumstance, any experience, any other person, other than you."
+   35. "If you're waiting for closure from someone, choose your peace. Make that choice to become the person that doesn't need that closure."
+   36. "Change does not come from one big overnight thing; it's through little daily actions, habitual behavior done over and over again."
+   37. "Self-concept affects pretty much everything in your life."
+   38. "Self-concept is the soil, the foundation of all your life experiences."
+   39. "Basically, self-concept is how you see, think, and feel about yourself and how you see yourself in relation to other circumstances or other things or other people in your life."
+   40. "To build a self-concept that is first-class, you have to enlarge your own perception of what you are worth."
+   41. "Recognize that you have your own special unique set of strengths and weaknesses."
+   42. "You are the first and last person to go through the set of experiences that you've gone through in your life."
+   43. "You already have everything that you want within you."
+   44. "If you make another person or another circumstance or money your God, you are always going to feel more small, more doubtful than you actually are."
+   45. "As the only person that gets to create their experiences and their reality, you are the only one that can assign meaning to things."
+   46. "You need to put a lot of value on yourself in order to live a happier life in general."
+   47. "Everything is within you because you are the only one bestowed with the power to change your life by changing the way that you feel."
+   48. "Fear is like an onion; it's built layer upon layer and gives you an illusion of protection and safety."
+   49. "At the core of who you are, you will come to realize that you are a being of love."
+   50. "There are two primary emotions or states of being in life that you can essentially boil down to, and they are fear and love."
+   51. "Fear is only a symptom; the cause is most likely a story, a belief, a programming that you are unconsciously holding onto."
+   52. "Fear is false evidence appearing real."
+   53. "The past does not have to create the future; the past does not dictate the future in any way."
+   54. "To dissolve that fear, remember fear and love are in opposite states."
+   55. "Love is not something that happens to you; it's a state of mind that you decide that you are going to feel in this very moment."
+   56. "Let go of this fear with awareness, not through ignorance."
+   57. "Choose to live in love by choosing to live in the present moment."
+   58. "If you continuously make this choice to believe this new story of love, you are going to see that reflected back in your reality."
+   59. "Dream big and always remember that fear is a choice."
+   60. "People often view their significant others through the lens of past experiences, which can limit the potential of the relationship."
+   61. "We must detach from past perceptions and be open to the idea that people can change."
+   62. "Our external world is a reflection of our internal state."
+   63. "Addressing internal feelings and beliefs can influence how others perceive and treat us."
+   64. "When the external world doesn't align with our desires, it's crucial to go within and address our internal state."
+   65. "By improving our self-worth and self-perception, we can influence our relationships and minimize the influence of third parties."
+   66. "Consistency in positive internal beliefs can lead to desirable external manifestations."
+   67. "It's all about understanding our power and potential."
+   68. "We have the ability to shape our reality based on our internal beliefs and feelings."
+   69. "Always remember the power and flexibility you have to decide who you want to be."
+
+  chatGPT generated more:
+   1. "The journey to self-discovery is not a straight path, but a series of twists and turns, each bringing its own lesson."
+   2. "One's true strength is not measured by the absence of fear, but by confronting it head-on."
+   3. "The world doesn't change when we merely wish for it; it changes when we consistently act upon those wishes."
+   4. "To seek happiness externally is to chase a mirage; true contentment comes from within."
+   5. "The loudest battles often take place in silence, within the confines of one's mind."
+   6. "The best way to predict the future is to create it with intent and purpose."
+   7. "When the weight of past regrets becomes unbearable, remember that every moment offers a new beginning."
+   8. "Our self-worth is not determined by others' opinions but by our own beliefs about ourselves."
+   9. "Growth often means leaving the familiar behind and embracing the unknown with courage and faith."
+   10. "Life doesn't demand perfection; it asks for progress, effort, and the courage to try."
+   11. "We are all artists, and our canvas is the life we lead. Every action, every choice, is a brushstroke."
+   12. "Life's beauty lies not in avoiding challenges but in rising above them, stronger and more enlightened."
+   13. "The chains of habit can be too light to be felt until they're too heavy to be broken. Be mindful of the patterns you create."
+   14. "Your thoughts are the architects of your reality. Build wisely."
+   15. "We often search the world for treasures when the real gem is within us, waiting to be discovered."
+   16. "To truly see someone, look beyond their flaws and witness the soul that seeks understanding and love."
+   17. "The most potent weapon against challenges isn't just resilience but the unwavering belief in oneself."
+   18. "Your perception defines your reality. Change your lens, and the world transforms."
+   19. "Harboring resentment is like drinking poison and waiting for the other person to suffer. Let go and free yourself."
+   20. "The universe doesn't recognize your desires by the words you speak but by the energy you emit."
+   21. "Seek not to be eternal, but to create moments that are."
+   22. "In the symphony of life, it's not about playing the right notes but playing with passion and heart."
+   23. "Every challenge faced is a step closer to the person you're meant to become."
+   24. "Life's richness doesn't come from what you have but from what you cherish."
+   25. "In the vastness of the universe, our worries are but specks of dust. Rise above and see the bigger picture."
+   26. "The past is a teacher, the present is a gift, and the future is a canvas waiting for your masterpiece."
+   27. "In the pursuit of dreams, remember that the journey itself offers its own magic and wonders."
+   28. "Your potential isn't dictated by your circumstances but by your determination to rise above them."
+   29. "In the dance of life, it's not about the steps you take but the joy you feel while taking them."
+   30. "Every sunrise offers a fresh start, a blank page on which to write the next chapter of your life story."
+   31. "Seek not to find yourself in the world, but to create yourself each day with purpose and passion."
+   32. "The heart's whispers often hold more wisdom than the mind's loudest shouts."
+   33. "In every moment of darkness, remember that stars can't shine without it."
+   34. "Growth is not just about achieving new heights but understanding the depths within oneself."
+   35. "Life is not about waiting for the storm to pass but learning to dance in its rain."
+
+
+
+
+
+
+
+
+
+   36. "You are already capable"
+   37. "Nature's Silent Symphony": The world around us operates in harmonious rhythms, from the migration of birds to the blooming of flowers, revealing a silent symphony of existence.
+   38. "The Enigma of Human Potential": Humans possess untapped potential, often revealing itself in moments of inspiration and creativity, hinting at a deeper connection to the cosmos.
+   39. "Mysteries Beyond Perception": There are phenomena beyond our immediate senses, from dark matter to the vastness of the universe, challenging our understanding and inspiring wonder.
+   40. "The Universe's Timeless Melody": Celestial events, from the orbits of planets to the life cycle of stars, play out in a grand, timeless melody, hinting at a deeper cosmic order.
+   41. "The Infinite Tapestry of Consciousness" Beyond mere physicality, consciousness is the very essence of reality. It blurs distinctions and dualities, emphasizing a profound interconnectedness. This unity is evident in the way ecosystems function symbiotically and how individual thoughts mold collective consciousness, influencing entire civilizations.
+   42. "Cosmic Cycles of Creation and Dissolution" The universe thrives in a balance between creation and dissolution, essential for evolution and growth. Whether observing the life of stars, organisms, or civilizations, change emerges as a fundamental pillar for progress.
+   43. "Innate Wisdom of the Heart" Beyond mere intellect lies the heart's intuitive understanding, rooted in the soul's journey across time. Ancient cultures revered the heart as a beacon of truth, and even today, our instincts, bridging the tangible and intangible, guide us in pivotal moments.
+   44. "Resonances of the Universe" The universe speaks through subtle vibrations and harmonies. This silent dialogue manifests in nature's patterns, from the Fibonacci sequence in flora to the harmonics of celestial entities, hinting at an underlying order and synchronicity.
+   45. "Divine Drama: Duality and Unity in Life" Life is a grand play orchestrated by the divine, a nexus where duality and unity coexist. World mythologies and rituals, with tales of gods and humans, serve as mirrors reflecting profound truths about our cosmic connection and shared human experience.
+   46. "The Cosmic Echo Within Us" Our inner world is a reflection of the universe's vastness. The grandeur of the cosmos finds a parallel in our consciousness, seen in the neural networks resembling cosmic constellations and the cellular operations mimicking galactic patterns.
+
+
+# Part III: Touching reality
 
 ## 1. Introductory statements:
 
@@ -456,7 +650,7 @@ Approaching the AI with these revolutionary tests can provide groundbreaking ins
    - **Questions**: Can the AI create art that resonates emotionally with an audience?
    - **Procedure**: Engage the AI in various artistic tasks, from visual arts to storytelling, and assess audience reactions.
 
-20. **Nudity**:
+20. **Innate Response to Nudity**:
    - **Idea**: Investigate the AI's reactions to concepts of vulnerability and exposure.
    - **Questions**: How does the AI interpret and respond to nudity in various contexts?
    - **Procedure**: Simulate scenarios with varying degrees of exposure and vulnerability, and evaluate the AI's reactions.
@@ -539,6 +733,15 @@ Approaching the AI with these revolutionary tests can provide groundbreaking ins
 
 ## 4. Applications
 
+
+### 0. The toplogy of human thought
+
+Build a small massive toplogy map of thought pattern strings and explore
+Then begin mapping out the different minds that would be accessible to the creature possessing this toplogy
+explore the shogoths
+
+
+
 ### 1. Authentic expression
 
 Express human emotions with highly aligned latent dynamics to the audience's subjective experience
@@ -560,6 +763,10 @@ Uses:
 2. Economics
 3. Social issues
 4. Disasters
+
+COnsider the future this model predicts right now
+Note that it will soon be misleading as this framework will significantly reshape humanity
+  Quote about financial patterns dissapearing after being discovered
 
 ## 5. Autotransinformalization: this section will show how to autonomously grow transinformalizations
 

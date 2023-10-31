@@ -80,10 +80,10 @@ class Graph(Symbol):
     verts: Symbol[]
     edges: list[Tuple[Symbol, Symbol]]
 
-    # @cached_property
-    # def emb(self) -> Tensor:
-    #     # some function of the graph
-    #     ...
+    \# @cached_property
+    \# def emb(self) -> Tensor:
+    \#     \# some function of the graph
+    \#     ...
 
     def subgraphs(self) -> Generator(Graph):
         ...
@@ -111,9 +111,9 @@ class Graph(Symbol):
         yield self
 
         while len(edges) > 0:
-            # weight the edges based on the degree of the node
-            # stochastically remove the lowest-weighted edge
-            # yield the resulting graph
+            \# weight the edges based on the degree of the node
+            \# stochastically remove the lowest-weighted edge
+            \# yield the resulting graph
             ...
 
 """
@@ -123,10 +123,10 @@ f_B: obs , wmg -> pred, wmg'
 f_A(f_B(f_A(...)))
 
 
-# return the number of similarity of subgraphs in the graph
-# the more isomorphic causal subgraphs, the more powerful it is
-# consider a subset of a graph as being a particular word or idea
-# you want to increase to isomorphism between internal representations and external concepts
+\# return the number of similarity of subgraphs in the graph
+\# the more isomorphic causal subgraphs, the more powerful it is
+\# consider a subset of a graph as being a particular word or idea
+\# you want to increase to isomorphism between internal representations and external concepts
 
 nA -> nB: cause to effect
 
@@ -139,27 +139,27 @@ a subgraph that's able to fit into a graph that being built
     - determine the subgraph isomorphism comparison precedence
 """
 
-# metaphor finds similar essence in different concepts
+\# metaphor finds similar essence in different concepts
 
 class Brain:
 
     modalities: Modality[] = l_eye, r_eye, l_ear, r_ear, mouth, skeletal_movement
 
-    s_ltm: GraphSymbol # all known information, requires procedural access for scale efficiency reasons
-    s_mtm: GraphSymbol # symbols accessible for matching, but not for testing all permutations over
-    s_stm: GraphSymbol # continued ripple of perception, declarative/implicit matching baked into the perception process
+    s_ltm: GraphSymbol \# all known information, requires procedural access for scale efficiency reasons
+    s_mtm: GraphSymbol \# symbols accessible for matching, but not for testing all permutations over
+    s_stm: GraphSymbol \# continued ripple of perception, declarative/implicit matching baked into the perception process
 
     def perception(self):
         encs = [modality.encode(modality.get()) for modality in self.modalities]
         s_obs = AtomicSymbol(self.fuse(encs))
 
-        # if s_obs doesn't exist in s_mtm, create it:
+        \# if s_obs doesn't exist in s_mtm, create it:
         for vert in self.s_mtm.verts:
             if vert.sim(s_obs) > THRESHOLD:
                 return
         self.s_mtm.verts.append(s_obs)
 
-        # use the symbols in the stm to compose a symbol for the s_obs that matches simething in mtm
+        \# use the symbols in the stm to compose a symbol for the s_obs that matches simething in mtm
         for s_subgraph in self.s_stm.subgraphs:
             if s_subgraph.sim(s_obs) > THRESHOLD:
                 s_mtm.connect(s_obs, s_subgraph)
@@ -170,18 +170,18 @@ class Brain:
 Y ---> Z
 
 
-# TODO: "thing" is the root node of all nodes
-# TODO: the "identity implication" applies to the root node, and it is the fundamental operator
+\# TODO: "thing" is the root node of all nodes
+\# TODO: the "identity implication" applies to the root node, and it is the fundamental operator
 
-# the directed edge is the only operator
+\# the directed edge is the only operator
 
-# the implications of a chain of parent nodes would differ from another chain
+\# the implications of a chain of parent nodes would differ from another chain
 
-# the combination of nodes defines what the operator is doing
-# 1+1=2 === 1->G_add_1=2
-# 1 -> G_add -> G_add_1 = G_inc
-# 5 -> G_inc -> 6
-# loop through a subgraph x number of times
+\# the combination of nodes defines what the operator is doing
+\# 1+1=2 === 1->G_add_1=2
+\# 1 -> G_add -> G_add_1 = G_inc
+\# 5 -> G_inc -> 6
+\# loop through a subgraph x number of times
 ```
 
 ```text
