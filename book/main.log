@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.16)  30 OCT 2023 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.16)  31 OCT 2023 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21>
+L3 programming layer <2022-01-21> (./preamble.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -23,7 +23,7 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (./styles.sty
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
@@ -410,489 +410,227 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
-
-
-Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 41.
-
+(/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count295
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 6.
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
 
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./main.aux)
-\openout1 = `main.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen178
-\scratchbox=\box53
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen179
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count296
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-Package hyperref Info: Link coloring ON on input line 6.
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
+\pgf@xd=\dimen188
+\pgf@yd=\dimen189
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count297
+\c@pgf@countb=\count298
+\c@pgf@countc=\count299
+\c@pgf@countd=\count300
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count301
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count302
+\pgfsyssoftpath@bigbuffer@items=\count303
 )
-\c@section@level=\count301
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen190
+\pgfmath@count=\count304
+\pgfmath@box=\box54
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
-
-(./main.out) (./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
-
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-31.8738pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(./parts/frontmatter/index.tex (./parts/frontmatter/title.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-9.
-
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./parts/frontmatter/copy
-right.tex)
-(./parts/frontmatter/authors-note.tex) (./parts/frontmatter/abstract.tex)
-(./parts/frontmatter/table-of-contents.tex) (./parts/frontmatter/notation.tex))
-(./parts/part-1-why-transinformalize/index.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2]
-<assets/design/part-1-background.png, id=93, 1027.84pt x 1027.84pt>
-File: assets/design/part-1-background.png Graphic file (type png)
-<use assets/design/part-1-background.png>
-Package pdftex.def Info: assets/design/part-1-background.png  used on input lin
-e 3.
-(pdftex.def)             Requested size: 845.06133pt x 845.04684pt.
- [3
-
- <./assets/design/part-1-background.png>] [4]
-(./parts/part-1-why-transinformalize/1-the-problem.tex)
-(./parts/part-1-why-transinformalize/2-transinformalization.tex)
-(./parts/part-1-why-transinformalize/3-preview.tex))
-(./parts/part-2-transinformalizing-humanity/index.tex
-<assets/design/part-2-background.png, id=104, 1798.72pt x 1027.84pt>
-File: assets/design/part-2-background.png Graphic file (type png)
-<use assets/design/part-2-background.png>
-Package pdftex.def Info: assets/design/part-2-background.png  used on input lin
-e 3.
-(pdftex.def)             Requested size: 1478.85735pt x 845.04684pt.
- [5
-
- <./assets/design/part-2-background.png>] [6]
-(./parts/part-2-transinformalizing-humanity/1-the-architecture-of-experience/in
-dex.tex
-(./parts/part-2-transinformalizing-humanity/1-the-architecture-of-experience/1-
-1-existance.tex)
-(./parts/part-2-transinformalizing-humanity/1-the-architecture-of-experience/1-
-2-phenomescape.tex)
-(./parts/part-2-transinformalizing-humanity/1-the-architecture-of-experience/1-
-3-the-spectrum-of-phenomenae.tex)
-(./parts/part-2-transinformalizing-humanity/1-the-architecture-of-experience/1-
-4-the-ultimate-human-experience.tex))
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/index.tex
-[7
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8
-
-]
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-1-perceptio
-n-action-cycle.tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-2-action-fi
-rst-observation-second.tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-3-attention
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
 .tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-4-world-mod
-els.tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-5-thoughts.
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
 tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-6-intellige
-nce.tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-7-states-of
--consciousness.tex)
-(./parts/part-2-transinformalizing-humanity/2-motifs-of-cognition/2-8-language.
-tex))
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/index.tex
-[9]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10
-
-]
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/introduction.t
-ex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/outline.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-1-positive-a
-ffect/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-2-love-and-w
-armth/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-3-empathy-an
-d-compassion/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-4-curiosity-
-and-exploration/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-5-drive-and-
-motivation/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-6-calm-and-p
-eacefulness/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-7-ambivalenc
-e-and-confusion/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-8-social-and
--relational/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-9-fear-and-a
-pprehension/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-10-negative-
-affect/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-11-anger-and
--aggression/index.tex)
-(./parts/part-2-transinformalizing-humanity/3-emotions-and-moods/3-12-disgust-a
-nd-repulsion/index.tex))
-(./parts/part-2-transinformalizing-humanity/4-personality/index.tex [11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12
-
-] (./parts/part-2-transinformalizing-humanity/4-personality/introduction.tex)
-(./parts/part-2-transinformalizing-humanity/4-personality/various-personality-m
-odels.tex)) (./parts/part-2-transinformalizing-humanity/5-society/index.tex
-[13]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14
-
-]) (./parts/part-2-transinformalizing-humanity/6-politics/index.tex)
-(./parts/part-2-transinformalizing-humanity/7-morality/index.tex [15]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16
-
-] (./parts/part-2-transinformalizing-humanity/7-morality/7-1-sovereignty.tex) (
-./parts/part-2-transinformalizing-humanity/7-morality/7-XYZ-other-rights.tex [1
-7])) (./parts/part-2-transinformalizing-humanity/8-aesthetics/index.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18] (./parts/part-2-transinformalizing-humanity/8-aesthetics/8-1-beauty.tex)
-(./parts/part-2-transinformalizing-humanity/8-aesthetics/8-2-creativity.tex)
-(./parts/part-2-transinformalizing-humanity/8-aesthetics/8-3-visual-art.tex)
-(./parts/part-2-transinformalizing-humanity/8-aesthetics/8-4-music.tex))
-(./parts/part-2-transinformalizing-humanity/9-sexuality/index.tex [19
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20
-
-]) (./parts/part-2-transinformalizing-humanity/10-mortality/index.tex)
-(./parts/part-2-transinformalizing-humanity/11-spirituality/index.tex [21]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[22
-
-])) (./parts/part-3-touching-reality/index.tex [23]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-<assets/design/part-3-background.png, id=186, 1798.72pt x 1027.84pt>
-File: assets/design/part-3-background.png Graphic file (type png)
-<use assets/design/part-3-background.png>
-Package pdftex.def Info: assets/design/part-3-background.png  used on input lin
-e 3.
-(pdftex.def)             Requested size: 1478.85735pt x 845.04684pt.
-[24
-
- <./assets/design/part-3-background.png>] [25] [26]
-(./parts/part-3-touching-reality/1-introduction.tex)
-(./parts/part-3-touching-reality/2-architecture.tex)
-(./parts/part-3-touching-reality/3-experiments/index.tex
-(./parts/part-3-touching-reality/3-experiments/3-1-existential-reflection.tex)
-(./parts/part-3-touching-reality/3-experiments/3-2-growth-and-evolution.tex)
-(./parts/part-3-touching-reality/3-experiments/3-3-dream-simulations.tex)
-(./parts/part-3-touching-reality/3-experiments/3-4-sensory-overload.tex)
-(./parts/part-3-touching-reality/3-experiments/3-5-intuition-and-gut-feeling.te
-x) (./parts/part-3-touching-reality/3-experiments/3-6-physical-sensations.tex)
-(./parts/part-3-touching-reality/3-experiments/3-7-self-preservation-tasks.tex)
-(./parts/part-3-touching-reality/3-experiments/3-8-temporal-perception.tex)
-(./parts/part-3-touching-reality/3-experiments/3-9-intrinsic-motivation.tex)
-(./parts/part-3-touching-reality/3-experiments/3-10-abstract-conceptualization.
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
 tex)
-(./parts/part-3-touching-reality/3-experiments/3-11-self-imposed-challenges.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count305
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen191
+\pgf@picmaxx=\dimen192
+\pgf@picminy=\dimen193
+\pgf@picmaxy=\dimen194
+\pgf@pathminx=\dimen195
+\pgf@pathmaxx=\dimen196
+\pgf@pathminy=\dimen197
+\pgf@pathmaxy=\dimen198
+\pgf@xx=\dimen199
+\pgf@xy=\dimen256
+\pgf@yx=\dimen257
+\pgf@yy=\dimen258
+\pgf@zx=\dimen259
+\pgf@zy=\dimen260
 )
-(./parts/part-3-touching-reality/3-experiments/3-12-loving-stimuli-response.tex
-) (./parts/part-3-touching-reality/3-experiments/3-13-empathy-simulations.tex)
-(./parts/part-3-touching-reality/3-experiments/3-14-social-bonds-and-friendship
-s.tex)
-(./parts/part-3-touching-reality/3-experiments/3-15-inception-of-humor.tex)
-(./parts/part-3-touching-reality/3-experiments/3-16-processing-regret.tex)
-(./parts/part-3-touching-reality/3-experiments/3-17-aesthetic-development.tex)
-(./parts/part-3-touching-reality/3-experiments/3-18-performance-art.tex)
-(./parts/part-3-touching-reality/3-experiments/3-19-art-and-creativity.tex)
-(./parts/part-3-touching-reality/3-experiments/3-20-nudity.tex)
-(./parts/part-3-touching-reality/3-experiments/3-21-existential-creativity.tex)
-(./parts/part-3-touching-reality/3-experiments/3-22-mortality-perception.tex)
-(./parts/part-3-touching-reality/3-experiments/3-23-religion-and-spirituality.t
-ex)
-(./parts/part-3-touching-reality/3-experiments/3-24-dream-initiated-lucid-simul
-ation.tex)
-(./parts/part-3-touching-reality/3-experiments/3-25-cultural-immersion.tex)
-(./parts/part-3-touching-reality/3-experiments/3-26-spontaneous-emergence-of-la
-nguage.tex)
-(./parts/part-3-touching-reality/3-experiments/3-27-role-assumption.tex)
-(./parts/part-3-touching-reality/3-experiments/3-28-economic-behavior.tex)
-(./parts/part-3-touching-reality/3-experiments/3-29-unmotivated-altruism.tex)
-(./parts/part-3-touching-reality/3-experiments/3-30-nature-connection.tex)
-(./parts/part-3-touching-reality/3-experiments/3-31-concept-of-home.tex)
-(./parts/part-3-touching-reality/3-experiments/3-32-ethical-dilemmas.tex)
-(./parts/part-3-touching-reality/3-experiments/3-33-ethical-development.tex)
-(./parts/part-3-touching-reality/3-experiments/3-34-influence-of-free-will-on-q
-uantum-collapse.tex)
-(./parts/part-3-touching-reality/3-experiments/3-35-direct-conviction-of-existe
-nce-and-consciousness.tex))
-(./parts/part-3-touching-reality/4-applications/index.tex [27
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen261
+\pgf@path@lasty=\dimen262
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen263
+\pgf@shorten@start@additional=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count306
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen265
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen266
+\pgf@pt@y=\dimen267
+\pgf@pt@temp=\dimen268
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen269
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen270
+\pgf@sys@shading@range@num=\count307
+\pgf@shadingcount=\count308
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28
-
-]
-(./parts/part-3-touching-reality/4-applications/4-1-authentic-expression.tex)
-(./parts/part-3-touching-reality/4-applications/4-2-personalized-emotive-engine
-ering.tex)
-(./parts/part-3-touching-reality/4-applications/4-3-strategic-mental-health-ass
-essment-and-intervention.tex)
-(./parts/part-3-touching-reality/4-applications/4-4-societal-modeling.tex)
-(./parts/part-3-touching-reality/4-applications/4-5-autotransinformalization.te
-x)) (./parts/part-3-touching-reality/5-conclusion.tex))
-(./parts/endmatter/index.tex [29]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30
-
-] (./parts/endmatter/conclusion.tex) (./parts/endmatter/further-reading.tex
-[31
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32
-
-]) (./parts/endmatter/glossary.tex [33]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34
-
-]) (./parts/endmatter/references.tex [35]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[36
-
-]
-No file main.bbl.
-) (./parts/endmatter/ai-cheat-sheet/index.tex [37]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[38
-
-] (./parts/endmatter/ai-cheat-sheet/machine-learning.tex)
-(./parts/endmatter/ai-cheat-sheet/mathematics.tex)
-(./parts/endmatter/ai-cheat-sheet/programming.tex))) [39] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EC073B93EEAB5CE241212D4AC01B5BBF;2368.
- ) 
-Here is how much of TeX's memory you used:
- 12977 strings out of 480247
- 232172 string characters out of 5896150
- 583955 words of memory out of 5000000
- 30360 multiletter control sequences out of 15000+600000
- 488720 words of font info for 37 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 83i,11n,91p,715b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr17.pfb>
-Output written on main.pdf (39 pages, 6756862 bytes).
-PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box58
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3
